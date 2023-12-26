@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automation.Level2_TestNG.adProduct">
+      	<parameter name="product" value="laptop"></parameter></class>
+      <class name="com.automation.Level2_TestNG.homePage"/>
+      <class name="com.automation.Level2_TestNG.registration">
+      	<parameter name="phoneNumber" value="2024456787"></parameter>
+      	<parameter name="firstName" value="Lillas"></parameter>
+      	<parameter name="lastName" value="Ansari"></parameter>
+      	<parameter name="userName" value="LilasAnsari"></parameter>
+      	<parameter name="password" value="Ariaremodeling"></parameter></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automation.Level1_TestNG.login">
+      	<parameter name="userName" value="lillas@ariaremodeling.com"></parameter>
+      	<parameter name="passwoed" value="AriaRemodedling"></parameter></class>
+      <class name="com.automation.Level1_TestNG.verifyCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
